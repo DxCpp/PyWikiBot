@@ -1,5 +1,5 @@
 # PyWikiBot
-WIKIPEDIA Telegram Bot
+Telegram WIKIPEDIA bot
 ## Install dependency
 
 pip3 install pyTelegramBotAPI\
