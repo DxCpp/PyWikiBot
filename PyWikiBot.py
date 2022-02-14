@@ -27,8 +27,8 @@ def getwiki(s):
         wikitext2=re.sub('\([^()]*\)', '', wikitext2)
         wikitext2=re.sub('\([^()]*\)', '', wikitext2)
         wikitext2=re.sub('\{[^\{\}]*\}', '', wikitext2)
-        # Возвращаем текстовую строку
-        return wikitext2
+        # Возвращаем текстовую строку и добавляем ссылку на статью
+        return wikitext2 + '\n Ссылка на статью: ' +ny.url
     # Обрабатываем исключение, которое мог вернуть модуль wikipedia при запросе
     except Exception as e:
         return 'В энциклопедии нет информации об этом'
