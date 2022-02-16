@@ -1,6 +1,5 @@
 # Telegram WIKIPEDIA Bot
 
-![GitHub issues: GitHub issues badge](https://img.shields.io/github/issues/DxCpp/PyWikiBot)
 ![GitHub forks: GitHub forks badge](https://img.shields.io/github/forks/DxCpp/PyWikiBot)
 ![GitHub stars: GitHub stars badge](https://img.shields.io/github/stars/DxCpp/PyWikiBot)
 ![GitHub license: GitHub license badge](https://img.shields.io/github/license/DxCpp/PyWikiBot)
